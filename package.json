@@ -1,12 +1,9 @@
 {
-  "name": "@hostlikepro/robo-uptime",
-  "version": "1.0.5",
+  "name": "@hostlikepro/uptime-status",
+  "version": "v1.0.5",
   "license": "MIT",
   "repository":"https://github.com/hostlikepro/robo-uptime",
-  "homepage": "https://status.hostlikepro.github.io"
   "scripts": {
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
